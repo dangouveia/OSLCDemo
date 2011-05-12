@@ -23,7 +23,6 @@ import org.apache.commons.httpclient.methods.RequestEntity;
 import org.apache.commons.httpclient.methods.StringRequestEntity;
 
 // simple class to demonstrate OSLC REST API calls for GET and POST
-// useful comments
 public class SimpleOSLC {
 
 	public static final String id = "admin";
