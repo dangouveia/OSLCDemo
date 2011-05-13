@@ -28,9 +28,6 @@ public class SimpleOSLC {
 	public static final String id = "admin";
 	public static final String pwd = "";
 
-	public static String = "GIT Test";
-
-
 	public static String eTag = null;
 
 	public static void main(String[] args) {
@@ -50,7 +47,9 @@ public class SimpleOSLC {
 
 		// prepare and execute GET request
 		String responseBody = doGET(http, uri);
-		
+	
+		\\ FILE CHANGE - NEW PRINT STATEMENT
+		System.out.println("\n\n--- Response Body ---\n\n");	
 		System.out.println(responseBody);
 
 		ByteArrayInputStream bais;
